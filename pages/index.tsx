@@ -2,8 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 
 const Index: React.FC = () => {
-    const image = "index.jpg";
-
     return (
         <>
             <Head>
