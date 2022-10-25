@@ -16,6 +16,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
     return (
         <div className="max-w-2xl mx-auto px-6 my-8">
+            <Head>
+                <meta
+                    property="og:description"
+                    content={description}
+                    key="og:description"
+                />
+                <meta property="og:title" content={title} key="og:title" />
+            </Head>
             <Navbar />
             <main>{children}</main>
             <Footer />

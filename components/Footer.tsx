@@ -20,7 +20,7 @@ const Footer = () => {
     return (
         <footer className="grid grid-cols-3 sm:flex-row sm:flex gap-4 mt-10">
             <FooterItem
-                href="https://github.com/juliendy/julien-dev"
+                href="https://github.com/juliendy/juliendy-dev"
                 name="source"
             />
             <FooterItem

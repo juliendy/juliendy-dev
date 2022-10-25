@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import PageTitle from "../components/PageTitle";
 import me from "../public/images/me.jpg";
+import { albums } from "../data/music";
 
 const About: React.FC = ({}) => {
     const title = "About Me - Julien Liam Yasar";
@@ -51,6 +52,112 @@ const About: React.FC = ({}) => {
                             </a>{" "}
                             as I like meeting new people.
                         </p>
+                    </div>
+                </div>
+                <div>
+                    <h2 className="text-2xl font-bold mb-3 mt-8">I Like</h2>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://github.com/juliendy?tab=stars"
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                Open source projects
+                            </a>
+                            . It&apos;s fascinating that random people all over
+                            the internet are able to come together to change the
+                            world.
+                        </li>
+                        <li>
+                            Reading{" "}
+                            <a
+                                href="https://www.goodreads.com/review/list/4623260?ref=nav_mybooks"
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                books
+                            </a>{" "}
+                            on my Kindle or traditional paperback or hardcover.
+                        </li>
+                        <li>
+                            Mechanical keyboards. I use a keyboard daily, so it
+                            makes sense for me to invest in tools that inspire
+                            me to use them more.
+                        </li>
+                        <li>
+                            Doing typing tests on{" "}
+                            <a
+                                href="https://monkeytype.com/profile/PiD5IrU9SsdiY6c2yDMUq72wigz1"
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                monkeytype
+                            </a>
+                            . My current personal record is 133wpm.
+                        </li>
+                        <li>
+                            Mechanical watches and G-Shock&apos;s. I own a Seiko
+                            SNZG13K1 and a G-Shock GA-B2100-1A1, both of which I
+                            bought for under £100. I just love how minimal they
+                            are which makes me feel good wearing them.
+                        </li>
+                        <li>
+                            Vi keybinds, I can&apos;t live without them as it
+                            simply makes interacting with the computer a joy.
+                        </li>
+                        <li>
+                            Consuming informational content at 2x speed.{" "}
+                            <a
+                                href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en"
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                Video Speed Controller
+                            </a>{" "}
+                            has completely changed the way I watch videos. I of
+                            course watch movies and shows at normal speed,
+                            I&apos;m not a psycho.
+                        </li>
+                        <li>
+                            Building things from scratch (within my
+                            capabilities) before buying it. It&apos;s a nice
+                            feeling when something has your own battle scars
+                            from making some mistakes.
+                        </li>
+                    </ul>
+                    <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
+                    <p>
+                        I&apos;m mostly a fan of indie music, but listen to a
+                        range of other genres. Feel free to check out my{" "}
+                        <a
+                            href="https://open.spotify.com/user/fogatron"
+                            rel="prefetch noreferrer"
+                            target="_blank"
+                        >
+                            spotify profile
+                        </a>
+                        .
+                    </p>
+                    <div className="grid grid-cols-2 gap-y-6 gap-x-6 sm:grid-cols-3">
+                        {albums.map((album) => (
+                            <a
+                                href={albums.url}
+                                className="group"
+                                key={album.title}
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg cursor-pointer">
+                                    <Image
+                                        alt={album.title}
+                                        src={album.image}
+                                        layout="fill"
+                                        className="group-hover:opacity-75 transition-all"
+                                    />
+                                </div>
+                            </a>
+                        ))}
                     </div>
                 </div>
             </div>
