@@ -2,33 +2,33 @@ import { Album } from "../lib/types";
 
 export const albums: Album[] = [
     {
-        title: "KIDS SEE GHOSTS",
-        image: "https://i.scdn.co/image/ab67616d0000b273013c00ee367dd85396f79c82",
-        url: "https://open.spotify.com/album/6pwuKxMUkNg673KETsXPUV",
+        title: "Storytelling",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/13/Belle_%26_Sebastian_-_Storytelling.jpg",
+        url: "https://open.spotify.com/album/5q6uJXgnkQEUYGFZZmCA6o",
     },
     {
-        title: "ye",
-        image: "https://i.scdn.co/image/ab67616d0000b2730cd942c1a864afa4e92d04f2",
-        url: "https://open.spotify.com/album/2Ek1q2haOnxVqhvVKqMvJe",
+        title: "Homogenic",
+        image: "https://upload.wikimedia.org/wikipedia/en/a/af/Bj%C3%B6rk_-_Homogenic.png",
+        url: "https://open.spotify.com/album/3knDOJUQBAATXsKYLWO4k8",
     },
     {
-        title: "The Life Of Pablo",
-        image: "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
-        url: "https://open.spotify.com/album/7gsWAHLeT0w7es6FofOXk1",
+        title: "Tender Buttons",
+        image: "https://upload.wikimedia.org/wikipedia/en/a/ad/Tenderbuttons.jpg",
+        url: "https://open.spotify.com/album/28RiDrxACWNtbrUNy9Ks1X",
     },
     {
-        title: "Graduation",
-        image: "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-        url: "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3",
+        title: "Loveless",
+        image: "https://upload.wikimedia.org/wikipedia/en/4/4b/My_Bloody_Valentine_-_Loveless.png",
+        url: "https://open.spotify.com/album/3USQKOw0se5pBNEndu82Rb",
     },
     {
-        title: "My Beautiful Dark Twisted Fantasy",
-        image: "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f",
-        url: "https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv",
+        title: "A Seat at the Table",
+        image: "https://upload.wikimedia.org/wikipedia/en/8/8d/Solange_-_A_Seat_at_the_Table.png",
+        url: "https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM",
     },
     {
-        title: "Yeezus",
-        image: "https://i.scdn.co/image/ab67616d0000b2731dacfbc31cc873d132958af9",
-        url: "https://open.spotify.com/album/7D2NdGvBHIavgLhmcwhluK?si=MfXgC_ZMRTWFslTpw-1Q3Q",
+        title: "Marry Me Tonight",
+        image: "https://upload.wikimedia.org/wikipedia/en/9/95/Marry_Me_Tonight_cover.jpg",
+        url: "https://open.spotify.com/artist/06sdJwlggq0PKOe4LPZWCg",
     },
 ];

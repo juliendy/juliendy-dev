@@ -142,7 +142,7 @@ const About: React.FC = ({}) => {
                     <div className="grid grid-cols-2 gap-y-6 gap-x-6 sm:grid-cols-3">
                         {albums.map((album) => (
                             <a
-                                href={albums.url}
+                                href={album.url}
                                 className="group"
                                 key={album.title}
                                 rel="prefetch noreferrer"
