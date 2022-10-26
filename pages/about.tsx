@@ -55,7 +55,9 @@ const About: React.FC = ({}) => {
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-bold mb-3 mt-8">I Like</h2>
+                    <h2 className="text-2xl font-bold mb-3 mt-8">
+                        things i like.
+                    </h2>
                     <ul>
                         <li>
                             <a
@@ -81,14 +83,15 @@ const About: React.FC = ({}) => {
                             on my Kindle or traditional paperback or hardcover.
                         </li>
                         <li>
-                            Mechanical keyboards. I use a keyboard daily, so it
-                            makes sense for me to invest in tools that inspire
-                            me to use them more.
+                            Hiking (wherever). I have been hiking since a very
+                            young age. What I love about it is because it makes
+                            me feel my body and reflecting on the small aspects
+                            of nature.
                         </li>
                         <li>
                             Doing typing tests on{" "}
                             <a
-                                href="https://monkeytype.com/profile/PiD5IrU9SsdiY6c2yDMUq72wigz1"
+                                href="https://monkeytype.com/"
                                 rel="prefetch noreferrer"
                                 target="_blank"
                             >
