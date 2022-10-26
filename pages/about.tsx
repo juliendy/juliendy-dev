@@ -83,7 +83,7 @@ const About: React.FC = ({}) => {
                             on my Kindle or traditional paperback or hardcover.
                         </li>
                         <li>
-                            Hiking (wherever). I have been hiking since a very
+                            Hiking (wherever)- I have been hiking since a very
                             young age. What I love about it is because it makes
                             me feel my body and reflecting on the small aspects
                             of nature.
@@ -100,14 +100,20 @@ const About: React.FC = ({}) => {
                             . My current personal record is 133wpm.
                         </li>
                         <li>
-                            Mechanical watches and G-Shock&apos;s. I own a Seiko
-                            SNZG13K1 and a G-Shock GA-B2100-1A1, both of which I
-                            bought for under £100. I just love how minimal they
-                            are which makes me feel good wearing them.
+                            Mushroom foraging: This is one of my favourite
+                            hobbies. We were lucky to have a safe forest nearby
+                            forests around Berlin (many other 🌳🌲 in Germany).
+                            My favourite mushrooms to eat are the gorgeous
+                            Porcini (<em>Boletus edulis</em>) - or Gemeiner
+                            Steinpilz in German.
                         </li>
                         <li>
-                            Vi keybinds, I can&apos;t live without them as it
-                            simply makes interacting with the computer a joy.
+                            Birdwatching: My father was a birdwatcher. My first
+                            real book was a 1947 edition of a field guide to the
+                            birds of Scandinavia (written in Swedish). Growing
+                            up in north part of Sweden, my parents would take me
+                            out on the weekends on birdwatching and foraging
+                            trips.
                         </li>
                         <li>
                             Consuming informational content at 2x speed.{" "}
@@ -123,10 +129,10 @@ const About: React.FC = ({}) => {
                             I&apos;m not a psycho.
                         </li>
                         <li>
-                            Building things from scratch (within my
-                            capabilities) before buying it. It&apos;s a nice
-                            feeling when something has your own battle scars
-                            from making some mistakes.
+                            Lastly, Gardening is something I have always done.
+                            In Berlin, I used to have a bed in Templehof where I
+                            used to grow a variaty of flowers. It is the best
+                            feeling when something starts growing from the soil that you planted.
                         </li>
                     </ul>
                     <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
