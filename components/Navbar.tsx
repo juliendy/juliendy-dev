@@ -19,6 +19,7 @@ const Navbar = () => {
         <nav className="flex flex-wrap gap-4 mb-6">
             <NavLink href="/" text="index" />
             <NavLink href="/about" text="about" />
+            <NavLink href="/projects" text="projects" />
             <NavLink href="/notes" text="notes" />
             <NavLink href="/articles" text="articles" />
         </nav>

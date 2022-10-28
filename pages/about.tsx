@@ -132,7 +132,8 @@ const About: React.FC = ({}) => {
                             Lastly, Gardening is something I have always done.
                             In Berlin, I used to have a bed in Templehof where I
                             used to grow a variaty of flowers. It is the best
-                            feeling when something starts growing from the soil that you planted.
+                            feeling when something starts growing from the soil
+                            that you planted.
                         </li>
                     </ul>
                     <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>

@@ -31,4 +31,19 @@ export const albums: Album[] = [
         image: "https://upload.wikimedia.org/wikipedia/en/9/95/Marry_Me_Tonight_cover.jpg",
         url: "https://open.spotify.com/artist/06sdJwlggq0PKOe4LPZWCg",
     },
+    {
+        title: "Jag Fick Feeling",
+        image: "https://i.scdn.co/image/ab67616d0000b273904d97ffb4fa6d319159dcfb",
+        url: "https://open.spotify.com/album/0VZqkP44Ch6UqS6lmwfaDc?si=LAo52JR6TYia_HqnvHa2Kw",
+    },
+    {
+        title: "One Nation",
+        image: "https://media2.ntslive.co.uk/resize/1600x1600/b0c10f39-cf04-4929-bb79-fcabb9437a38_1500336000.jpeg",
+        url: "https://open.spotify.com/album/4U1U4bqxzWp4pfN2ajknUR?si=TnPZBXfZQoKS22GlS07s5w",
+    },
+    {
+        title: "Crumbling the Antiseptic Beauty",
+        image: "https://i.scdn.co/image/ab67616d0000b273a0830a602e02b949fda2048c",
+        url: "https://open.spotify.com/album/2af92hl8VD5STLSiva014G?si=NIhM60eVQHagJLLIGtXc0A",
+    },
 ];
