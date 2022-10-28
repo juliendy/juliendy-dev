@@ -49,8 +49,13 @@ const Index: React.FC = () => {
                     >
                         front end developer
                     </a>{" "}
-                    team, focusing on problems related to the Web ecosystem for
-                    accecability and clean user interfaces.
+                    , with focus on problems related to the web ecosystems and
+                    creating accesable web pages for all.
+                </p>
+                <p>
+                    Look at some of the{" "}
+                    <Link href="/projects">projects</Link>{" "}
+                    that I have created!
                 </p>
                 <p>
                     Here, I write{" "}
