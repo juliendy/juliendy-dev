@@ -23,6 +23,7 @@ const Projects: React.FC = ({}) => {
             </Head>
             <div>
                 <PageTitle name="Projects" />
+                <h1>Projects here</h1>
             </div>
         </>
     );
