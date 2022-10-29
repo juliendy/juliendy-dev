@@ -47,9 +47,9 @@ const Index: React.FC = () => {
                         rel="prefetch noreferrer"
                         target="_blank"
                     >
-                        front end developer
+                        front end developer,
                     </a>{" "}
-                    , with focus on problems related to the web ecosystems and
+                    with focus on problems related to the web ecosystems and
                     creating accesable web pages for all.
                 </p>
                 <p>
