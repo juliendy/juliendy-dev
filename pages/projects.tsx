@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import PageTitle from "../components/PageTitle";
 
 const Projects: React.FC = ({}) => {
