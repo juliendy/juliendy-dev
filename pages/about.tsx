@@ -3,6 +3,7 @@ import Image from "next/image";
 import PageTitle from "../components/PageTitle";
 import me from "../public/images/me.jpg";
 import { albums } from "../data/music";
+import { projects } from "../data/projects";
 
 const About: React.FC = ({}) => {
     const title = "About Me - Julien Liam Yasar";
@@ -139,18 +140,34 @@ const About: React.FC = ({}) => {
                     <h2 className="text-2xl font-bold mb-3 mt-8">
                         things i&apos;ve built.
                     </h2>
-                    <ul>
-                        <li>
+                    <p>
+                        {" "}
+                        here are some of the projects i&apos;ve built since
+                        finishing my web development bootcamp in august 2022.
+                    </p>
+                    <div className="grid grid-cols-2 gap-y-6 gap-x-6 sm:grid-cols-3">
+                        {projects.map((project) => (
                             <a
-                                href="https://climate-visualiser.vercel.app/"
+                                href={project.url}
+                                className="relative group"
+                                key={project.title}
                                 rel="prefetch noreferrer"
                                 target="_blank"
                             >
-                                climatevisualiser
-                            </a>{" "}
-                            visualise how the climate has changed since 1960. weather data brought to you by meteo api.
-                        </li>
-                    </ul>
+                                <div className="relative aspect-w-1 aspect-h-1 overflow-hidden rounded-lg cursor-pointer">
+                                    <Image
+                                        alt={project.title}
+                                        src={project.image}
+                                        layout="fill"
+                                        className="group-hover:opacity-75 transition-all"
+                                    />
+                                </div>
+                                <span className="absolute top-0 left-0 bottom-0 right-0 group-hover:text-white text-transparent flex items-center justify-center text-center bg-transparent group-hover:bg-black/75 rounded-lg">
+                                    {project.title}
+                                </span>
+                            </a>
+                        ))}
+                    </div>
                     <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
                     <p>
                         I&apos;m mostly a fan of indie music, but listen to a
@@ -181,6 +198,9 @@ const About: React.FC = ({}) => {
                                         className="group-hover:opacity-75 transition-all"
                                     />
                                 </div>
+                                {/* <span className="absolute top-0 left-0 bottom-0 right-0 group-hover:text-white text-transparent flex items-center justify-center text-center bg-transparent group-hover:bg-black/50 rounded-lg">
+                                    {album.title}
+                                </span> */}
                             </a>
                         ))}
                     </div>

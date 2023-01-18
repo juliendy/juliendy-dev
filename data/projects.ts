@@ -2,39 +2,9 @@ import { Project } from "../lib/types";
 
 export const projects: Project[] = [
     {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
-    },
-    {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
-    },
-    {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
-    },
-    {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
-    },
-    {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
-    },
-    {
-        title: "",
-        image: "",
-        url: "",
-        desc: "",
+        title: "Climate Visualiser",
+        image: "https://i.imgur.com/HlTqbNS.png",
+        url: "https://climate-visualiser.vercel.app/",
+        desc: "Visualise climate change since the 1960",
     },
 ];
