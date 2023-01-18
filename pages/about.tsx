@@ -24,7 +24,7 @@ const About: React.FC = ({}) => {
                 />
             </Head>
             <div className="prose dark:prose-invert">
-                <PageTitle name="About Me" />
+                <PageTitle name="about me" />
                 <div className="relative sm:flex sm:flex-row-reverse">
                     <div className="mx-auto w-60 h-60 sm:w-full sm:h-full ">
                         <Image
@@ -134,6 +134,21 @@ const About: React.FC = ({}) => {
                             used to grow a variaty of flowers. It is the best
                             feeling when something starts growing from the soil
                             that you planted.
+                        </li>
+                    </ul>
+                    <h2 className="text-2xl font-bold mb-3 mt-8">
+                        things i&apos;ve built.
+                    </h2>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://climate-visualiser.vercel.app/"
+                                rel="prefetch noreferrer"
+                                target="_blank"
+                            >
+                                climatevisualiser
+                            </a>{" "}
+                            visualise how the climate has changed since 1960. weather data brought to you by meteo api.
                         </li>
                     </ul>
                     <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
