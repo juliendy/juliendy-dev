@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import NowPlaying from "../components/NowPlaying";
 
 const Index: React.FC = () => {
     return (
@@ -22,6 +23,9 @@ const Index: React.FC = () => {
                         <span className="text-google-red">e</span>
                     </span> */}
                 </p>
+                <div className="max-w-fit my-6">
+                    <NowPlaying />
+                </div>
                 <div className="max-w-fit my-6"></div>
             </div>
             <div className="prose dark:prose-invert">
