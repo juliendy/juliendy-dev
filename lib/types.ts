@@ -12,3 +12,10 @@ export interface Album {
     image: string;
     url: string;
 }
+
+export interface Projects {
+    title: string;
+    image: string;
+    url: string;
+    desc: string;
+}
