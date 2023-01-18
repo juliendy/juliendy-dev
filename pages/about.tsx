@@ -142,8 +142,8 @@ const About: React.FC = ({}) => {
                     </h2>
                     <p>
                         {" "}
-                        here are some of the projects i&apos;ve built since
-                        finishing my web development bootcamp in august 2022.
+                        here are some of the finished and deployed projects i&apos;ve built since
+                        finishing my web development bootcamp in august 2022:
                     </p>
                     <div className="grid grid-cols-2 gap-y-6 gap-x-6 sm:grid-cols-3">
                         {projects.map((project) => (
@@ -168,6 +168,10 @@ const About: React.FC = ({}) => {
                             </a>
                         ))}
                     </div>
+                        <p>
+                            {" "}
+                            and some projects that are still work in projects:
+                        </p>
                     <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
                     <p>
                         I&apos;m mostly a fan of indie music, but listen to a
