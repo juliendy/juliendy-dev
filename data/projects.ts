@@ -1,6 +1,6 @@
-import { Projects } from "../lib/types";
+import { Project } from "../lib/types";
 
-export const projects: Projects[] = [
+export const projects: Project[] = [
     {
         title: "",
         image: "",
