@@ -53,8 +53,7 @@ const Index: React.FC = () => {
                     creating accesable web pages for all.
                 </p>
                 <p>
-                    Look at some of the{" "}
-                    <Link href="/projects">projects</Link>{" "}
+                    Look at some of the <Link href="/projects">projects</Link>{" "}
                     that I have created!
                 </p>
                 <p>
