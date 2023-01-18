@@ -4,7 +4,7 @@ const Custom404: React.FC = () => {
     return (
         <>
             <Head>
-                <title>404 - Julien Liam Yasar</title>
+                <title>404 - juliendydev</title>
             </Head>
             <h1 className="text-center text-2xl sm:text-4xl font-black">
                 404 - Page not found

@@ -7,7 +7,7 @@ import { projects } from "../data/projects";
 // import { useState } from "react";
 
 const About: React.FC = ({}) => {
-    const title = "About Me - Julien Liam Yasar";
+    const title = "About Me - juliendydev";
 
     // const [modalOpen, setModalOpen] = useState(false);
     // const [modalProject, setModalProject] = useState<typeof projects | undefined>(undefined);

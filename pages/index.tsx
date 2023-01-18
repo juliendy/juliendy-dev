@@ -6,7 +6,7 @@ const Index: React.FC = () => {
     return (
         <>
             <Head>
-                <title>Julien Liam Yasar - Developer, lifelong learner.</title>
+                <title>juliendydev - Developer, lifelong learner.</title>
             </Head>
             <div className="gap-1">
                 <h1 className="text-4xl font-extrabold sm:text-5xl">

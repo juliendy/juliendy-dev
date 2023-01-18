@@ -20,7 +20,7 @@ interface ArticlesProps {
 }
 
 const Articles: React.FC<ArticlesProps> = ({ allArticlesData }) => {
-  const title = "Articles - Julien Liam Yasar";
+  const title = "Articles - juliendydev";
 
   return (
     <>

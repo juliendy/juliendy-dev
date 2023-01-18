@@ -20,7 +20,7 @@ interface NotesProps {
 }
 
 const Notes: React.FC<NotesProps> = ({ allNotesData }) => {
-    const title = "Book Notes - Julien Liam Yasar";
+    const title = "Book Notes - juliendydev";
 
     return (
         <>
