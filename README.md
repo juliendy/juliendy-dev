@@ -1,2 +1,2 @@
 # juliendy.dev
-![Preview](https://media.giphy.com/media/YXvvMbzYnIl2HCgc5x/giphy.gif)
+![Preview](https://i.imgur.com/vBAZLq5.png)
