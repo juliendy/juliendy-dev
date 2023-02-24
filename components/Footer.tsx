@@ -27,6 +27,10 @@ const Footer = () => {
                 href="https://twitter.com/eggsandbread"
                 name="twitter"
             />
+            <FooterItem
+                href="https://www.linkedin.com/in/julien-yasar-396911235/"
+                name="linkedin"
+            />
             <FooterItem href="https://github.com/juliendy" name="github" />
         </footer>
     );
