@@ -183,7 +183,7 @@ const About: React.FC = ({}) => {
                         ))}
                     </div>
                     {/* <p> and some projects that are still work in projects:</p> */}
-                    <h2 className="text-2xl font-bold mb-3 mt-8">Music</h2>
+                    <h2 className="text-2xl font-bold mb-3 mt-8">things i listen to.</h2>
                     <p>
                         I&apos;m mostly a fan of indie music, but listen to a
                         range of other genres. Feel free to check out my{" "}
