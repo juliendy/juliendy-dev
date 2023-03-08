@@ -2,19 +2,19 @@ import { Project } from "../lib/types";
 
 export const projects: Project[] = [
     {
-        title: "Climate Visualiser",
+        title: "climatevisualiser",
         image: "https://i.imgur.com/HlTqbNS.png",
         url: "https://climate-visualiser.vercel.app/",
         desc: "Visualise climate change since the 1960",
     },
     {
-        title: "Travelling Salesman",
+        title: "travelling salesman",
         image: "https://i.imgur.com/UcjdR2D.png",
         url: "https://travelling-salesman.netlify.app/",
         desc: "A small game created using SvelteKit and Threlte",
     },
     {
-        title: "Nota",
+        title: "nota",
         image: "https://i.imgur.com/XzET2XG.png",
         url: "https://nota-jdy.netlify.app/",
         desc: "Logic heavy note taking app, with categories and markdown language",
@@ -30,5 +30,11 @@ export const projects: Project[] = [
         image: "https://i.imgur.com/WdmjGVf.png",
         url: "https://github.com/juliendy/testing-framework",
         desc: "Practice and learn typescript, playwright and jest",
+    },
+    {
+        title: "universal resumé",
+        image: "https://i.imgur.com/xokUXDr.png",
+        url: "https://github.com/juliendy/universal-resume",
+        desc: "Minimal and formal résumé (CV) website template for print, mobile, and desktop. Includes several sizes.",
     },
 ];
