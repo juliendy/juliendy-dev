@@ -13,7 +13,7 @@ const Index: React.FC = () => {
                     hi, I&apos;m julien.
                 </h1>
                 <p className="font-mono text-sm sm:text-lg font-semibold text-neutral-600 dark:text-neutral-400">
-                    junior web developer / between frequencies{" "}
+                    web developer / between frequencies{" "}
                     {/* <span className="font-serif">
                         <span className="text-google-blue">G</span>
                         <span className="text-google-red">o</span>
